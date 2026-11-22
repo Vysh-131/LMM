@@ -21,7 +21,7 @@
 
 ## Problem
 
-India's Northeastern states face chronic landslide risk from monsoons and seismic activity, repeatedly severing the region's limited road and rail links. Existing landslide inventories are one-time snapshots — they detect a scar but never track whether it stabilises, stays bare, or keeps growing. **There is no operational system that continuously monitors the evolution of every mapped landslide over years.**
+India's Northeastern states face chronic landslide risk from monsoons and seismic activity, repeatedly severing the region's limited road and rail links. Existing landslide inventories are one-time snapshots, they detect a scar but never track whether it stabilises, stays bare, or keeps growing. **There is no operational system that continuously monitors the evolution of every mapped landslide over years.**
 
 LMM addresses this by building a machine-learning pipeline that **identifies, maps, classifies, and temporally monitors** landslides from multi-temporal high-resolution satellite imagery spanning 2015 to the present.
 
@@ -33,11 +33,11 @@ The LMM pipeline is built as five sequential stages:
 
 ```mermaid
 flowchart LR
-    A["🛰️ Data Acquisition"] --> B["🧹 Pre-Processing"]
-    B --> C["🤖 AI/ML Detection"]
-    C --> D["📊 Classification"]
-    D --> E["🔍 Boundary Monitoring"]
-    E --> F["⚠️ Alert System"]
+    A["Data Acquisition"] --> B["Pre-Processing"]
+    B --> C["AI/ML Detection"]
+    C --> D["Classification"]
+    D --> E["Boundary Monitoring"]
+    E --> F["Alert System"]
 ```
 
 ### 1. Data Acquisition
@@ -80,9 +80,9 @@ Every detected landslide is classified into one of three categories using its **
 
 | Class | Indicator | Action |
 |-------|-----------|--------|
-| 🟢 **Stable** | Vegetation re-growing inside the scar | Logged in inventory; low-priority monitoring |
-| 🟡 **Non-Stable** | Bare soil persists; no vegetation recovery | Monitored at shorter intervals |
-| 🔴 **Vulnerable** | Scar area actively growing year-on-year | High-priority alert; LBM boundary tracking engaged |
+| **Stable** | Vegetation re-growing inside the scar | Logged in inventory; low-priority monitoring |
+| **Non-Stable** | Bare soil persists; no vegetation recovery | Monitored at shorter intervals |
+| **Vulnerable** | Scar area actively growing year-on-year | High-priority alert; LBM boundary tracking engaged |
 
 ### 5. Landslide Boundary Modification (LBM)
 
@@ -206,9 +206,9 @@ Below are satellite image pairs from the Sikkim region showing **before** (origi
 
 ```mermaid
 flowchart LR
-    A["🎯 LMM Training\nDec 2026"] --> B["🧪 Early Prototype\nJan 15, 2027\nSikkim pilot"]
-    B --> C["🔬 Prototype\nJan 31, 2027\nSikkim + Assam"]
-    C --> D["🚀 MVP\nMay 1, 2027\nFull NE coverage"]
+    A["LMM Training\nDec 2026"] --> B["Early Prototype\nJan 15, 2027\nSikkim pilot"]
+    B --> C["Prototype\nJan 31, 2027\nSikkim + Assam"]
+    C --> D["MVP\nMay 1, 2027\nFull NE coverage"]
 ```
 
 | Milestone | Date | Deliverable |
@@ -233,7 +233,7 @@ flowchart LR
 
 | Role | Name | Affiliation |
 |------|------|-------------|
-| **Student** | Vyshak Sanil | B.Tech ECE (3rd Year), SJCET Palai, Kerala |
+| **Student** | Vyshakh Menon S | B.Tech ECE (3rd Year), SJCET Palai, Kerala |
 | **Student** | Rathinam Ramasamy J | B.E Geoinformatics (4th Year), Anna University, Chennai |
 | **Faculty** | Dr. Giby Jose | Assoc. Prof. & HOD, ECE, SJCET Palai |
 | **Faculty** | Ms. Shilpa Lizbeth George | Asst. Prof., SJCET Palai |
@@ -257,5 +257,5 @@ This project is developed for research purposes in collaboration with the Physic
 ---
 
 <p align="center">
-  <sub>Built with 🛰️ by the LMM Team — towards safer roads and lives in India's Northeast</sub>
+  <sub>Built by the LMM Team</sub>
 </p>
