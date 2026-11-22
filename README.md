@@ -93,7 +93,6 @@ The core innovation — an **edge-aware boundary refinement** algorithm applied 
 3. Measure outward movement at the crown and flanks
 4. **Raise an early-warning flag** when boundary displacement exceeds the configured threshold
 
-> This provides the first-of-its-kind pixel-level early warning system for landslide reactivation.
 
 ---
 
