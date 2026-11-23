@@ -233,10 +233,10 @@ flowchart LR
 | Role | Name | Affiliation |
 |------|------|-------------|
 | **Mentor** | Dr. Vijayan S | Assoc. Prof., Physical Research Laboratory, Ahmedabad |
-| **Student** | Vyshakh Menon S | B.Tech ECE (3rd Year), SJCET Palai, Kerala |
-| **Student** | Rathinam Ramasamy J | B.E Geoinformatics (4th Year), Anna University, Chennai |
-| **Faculty** | Dr. Giby Jose | Assoc. Prof. & HOD, ECE, SJCET Palai |
 | **Faculty** | Ms. Shilpa Lizbeth George | Asst. Prof., SJCET Palai |
+| **Student** | Rathinam Ramasamy J | B.E Geoinformatics (4th Year), Anna University, Chennai |
+| **Student** | Vyshakh Menon S | B.Tech ECE (3rd Year), SJCET Palai, Kerala |
+
 ---
 
 ## Data Sources
