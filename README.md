@@ -233,6 +233,7 @@ flowchart LR
 | Role | Name | Affiliation |
 |------|------|-------------|
 | **Mentor** | Dr. Vijayan S | Assoc. Prof., Physical Research Laboratory, Ahmedabad |
+| **Mentor** | Dr. Kotluri Sravan Kumar | Scientist B, National Centre for Earth Science Studies, Thiruvananthapuram |
 | **Faculty** | Ms. Shilpa Lizbeth George | Asst. Prof., SJCET Palai |
 | **Student** | Rathinam Ramasamy J | B.E Geoinformatics (4th Year), Anna University, Chennai |
 | **Student** | Vyshakh Menon S | B.Tech ECE (3rd Year), SJCET Palai, Kerala |
