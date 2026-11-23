@@ -205,7 +205,7 @@ Below are satellite image pairs from the Sikkim region showing **before** (origi
 
 ```mermaid
 flowchart LR
-    A["LMM Training\nDec 2026"] --> B["Early Prototype\nJan 15, 2027\nSikkim pilot"]
+    A["LMM Training\nDec 2026"] --> B["Early Prototype\nJan 15, 2027\nSikkim region"]
     B --> C["Prototype\nJan 31, 2027\nSikkim + Assam"]
     C --> D["MVP\nMay 1, 2027\nFull NE coverage"]
 ```
